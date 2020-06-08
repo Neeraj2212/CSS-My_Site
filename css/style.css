@@ -44,3 +44,6 @@ p{
     bottom: 300px;
     left: 300px;
 }
+.my-image{
+    border-radius: 100%;
+}
