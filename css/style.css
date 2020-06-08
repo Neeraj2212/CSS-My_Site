@@ -1,0 +1,46 @@
+.top_container{
+    background-color: #e4f9f5;
+    
+    position: relative;
+    padding-top: 100px;
+}
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Fauna One', serif;
+    
+    
+}
+h1{
+    margin: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.5rem;
+
+}
+p{
+    font-family: 'Metal Mania', cursive;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.top-cloud{
+    
+    position: absolute ; 
+    top: 50px;
+   right: 300px;
+
+}
+.mountain{
+    align-items: center;
+    max-width: 80%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
