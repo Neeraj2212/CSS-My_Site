@@ -19,11 +19,9 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
-img{
-    height: 250px;
-}
+
 .languages{
-    width: 200px;
+    height: 225px;
 }
 h2{
     color: #66BFBF;
@@ -46,8 +44,32 @@ h1{
     font-size: 2.3rem;
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #11999e;
+    color: #66BFBF;
 }
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    padding: 20px;
+    line-height: 2;
+}
+#skill{
+    font-size: 2.5rem;
+}
+
+.web ,.ml ,.languages{
+    width: 35%;
+    height: auto;
+}
+.profile{
+    width: 50%;
+    line-height: 2;
+    margin: auto;
+}
+#hello{
+    font-size: 3rem;
+}
+
 
 .top-cloud{
     
@@ -78,8 +100,45 @@ h1{
 }
 .my-image{
     border-radius: 100%;
+    width: 35%;
+    
+    margin: 50px auto 50px auto;
 }
 .talk{
     font-family: 'Courgette', cursive;    
     font-size: 1.5rem;
+}
+
+.web{
+    float: right;
+    margin: 30px;
+}
+.ml{
+    float: left;
+    margin: 30px;
+}
+.languages{
+    float: left;
+    margin: 30px;
+}
+.ml-row{
+    text-align: left;
+}
+.web-row{
+    text-align: right;
+}
+.language-row{
+    text-align: left;
+}
+hr{
+    width: 15%;
+    border-style: dotted none none ;
+    border-color: gray;
+    border-width: 5px;
+    }
+#first-line{
+    margin: 100px auto;
+}
+#second-line{
+    margin: 100px auto;
 }
