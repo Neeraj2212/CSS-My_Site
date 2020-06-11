@@ -148,7 +148,7 @@ hr{
 .footer-link{
     color: #11999e;
     padding: 20px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .bottom-container{
     background-color: #66BFBF;
@@ -159,3 +159,39 @@ hr{
 #cr{
     color: #eaf6f6;
 }
+
+.btn {
+    background: #51a5d6;
+    background-image: -webkit-linear-gradient(top, #51a5d6, #2a80b5);
+    background-image: -moz-linear-gradient(top, #51a5d6, #2a80b5);
+    background-image: -ms-linear-gradient(top, #51a5d6, #2a80b5);
+    background-image: -o-linear-gradient(top, #51a5d6, #2a80b5);
+    background-image: linear-gradient(to bottom, #51a5d6, #2a80b5);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #71b9e3;
+    background-image: -webkit-linear-gradient(top, #71b9e3, #18a0f5);
+    background-image: -moz-linear-gradient(top, #71b9e3, #18a0f5);
+    background-image: -ms-linear-gradient(top, #71b9e3, #18a0f5);
+    background-image: -o-linear-gradient(top, #71b9e3, #18a0f5);
+    background-image: linear-gradient(to bottom, #71b9e3, #18a0f5);
+    text-decoration: none;
+  }
+  
+  .contact{
+      margin: 75px;
+  }
+  .footer-link:hover{
+        color: #eaf6f6;
+  }
+
+ 
