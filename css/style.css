@@ -48,7 +48,7 @@ h1{
 }
 
 .skill-row{
-    width: 50%;
+    width: 65%;
     margin: 50px auto 100px auto;
     padding: 20px;
     line-height: 2;
@@ -58,7 +58,7 @@ h1{
 }
 
 .web ,.ml ,.languages{
-    width: 35%;
+    width: 275px;
     height: auto;
 }
 .profile{
@@ -94,15 +94,18 @@ h1{
 
 .bottom-cloud{
     position: absolute;
-    bottom: 275pxpx;
+    bottom: 275px;
     left: 275px;
     height: 75px;
 }
 .my-image{
     border-radius: 100%;
-    width: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 70%;
+    min-width: 193px;
+
     
-    margin: 50px auto 50px auto;
 }
 .talk{
     font-family: 'Courgette', cursive;    
@@ -111,15 +114,15 @@ h1{
 
 .web{
     float: right;
-    margin: 30px;
+    margin: 30px 0 30px 30px;
 }
 .ml{
     float: left;
-    margin: 30px;
+    margin: 30px 30px 30px 0;
 }
 .languages{
     float: left;
-    margin: 30px;
+    margin: 30px 30px 30px 0;
 }
 .ml-row{
     text-align: left;
@@ -141,4 +144,18 @@ hr{
 }
 #second-line{
     margin: 100px auto;
+}
+.footer-link{
+    color: #11999e;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 30px;
+    line-height: 3;
+    margin-top: 100px;
+}
+#cr{
+    color: #eaf6f6;
 }
